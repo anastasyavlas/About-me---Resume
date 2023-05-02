@@ -1,0 +1,44 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+/*Header*/
+
+.header-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1300px;
+    width: 100%;
+    min-height: 100px;
+    background: #213B7E;
+    justify-content: space-between;
+}
+
+.icon{
+    height: 100px;
+    width: auto;
+
+}
+.menu-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-shrink: 1;
+  
+}
+
+
+
+a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+    ;
+}
