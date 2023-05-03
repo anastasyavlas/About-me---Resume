@@ -1,7 +1,10 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .page{
     display: flex;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
     margin: 0%;
 }
@@ -10,13 +13,17 @@
 
 .header-class{
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
     max-width: 1300px;
     width: 100%;
     min-height: 100px;
     background: #213B7E;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .icon{
@@ -29,9 +36,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    align-self: stretch;
     list-style: none;
-    flex-shrink: 1;
+    max-width: 485px;
+    min-height: 80px;
   
 }
 
@@ -41,4 +49,12 @@ a{
     text-decoration-line: none;
     color: #FFFFFF;
     ;
+}
+
+
+h1{color: black;}
+
+.pictures {
+    max-width: 523px;
+    height: auto;
 }
