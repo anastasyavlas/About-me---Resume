@@ -23,7 +23,7 @@ html{
     background: #213B7E;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
 }
 
 .icon{
@@ -35,22 +35,60 @@ html{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
     align-items: center;
     align-self: stretch;
     list-style: none;
-    max-width: 485px;
-    min-height: 80px;
+    max-width: 700px;
+    min-height: 100px;
+    background: #213B7E;
   
 }
 
+ul>li{
+    display: flex;
+}
 
+.menu-link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 18px;
+    max-width: 150px;
+    min-height: 100px;
+    background: #213B7E;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.menu-link:hover{
+    background: #FFFFFF;
+    color: #213B7E;
+    text-decoration-line:none;
+}
 
 a{
     text-decoration-line: none;
     color: #FFFFFF;
-    ;
+    
 }
 
+.me-button{
+    width: 153px;
+    min-height: 70px;
+    background: #EA5D21;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
 
 h1{color: black;}
 
