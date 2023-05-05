@@ -57,25 +57,23 @@ ul>li{
     padding: 0 18px;
     margin: 0;
     max-width: 150px;
-    width: 100%;
     min-height: 100px;
     background: #213B7E;
     font-weight: 400;
     font-size: 20px;
     text-decoration-line: underline;
+    text-align: center;
     color: #FFFFFF;
+    white-space: pre-wrap;
 }
 
+em{
+    text-align: center;
+}
 .menu-link:hover{
     background: #FFFFFF;
     color: #213B7E;
     text-decoration-line:none;
-}
-
-a{
-    text-decoration-line: none;
-    color: #FFFFFF;
-    
 }
 
 .me-button{
@@ -94,21 +92,22 @@ a{
     
 }
 
-
-
-h1{
-    display: flex;
-    align-items: center;
+.basic-content{
     max-width: 911px;
+    width: 100%;
+    min-height: 720px;
+    margin: 0 auto;
+}
+
+.basic-heading{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-        
     color: #000000;
 }
 
 .pictures {
-    max-width: 523px;
+    max-width: 300px;
     height: auto;
 }
