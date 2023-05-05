@@ -55,7 +55,9 @@ ul>li{
     flex-wrap: wrap;
     align-items: center;
     padding: 0 18px;
+    margin: 0;
     max-width: 150px;
+    width: 100%;
     min-height: 100px;
     background: #213B7E;
     font-weight: 400;
@@ -86,7 +88,8 @@ a{
     font-size: 18px;
     display: flex;
     align-items: center;
-
+    border: 0;
+    margin: 0;
     color: #FFFFFF;
 }
 
