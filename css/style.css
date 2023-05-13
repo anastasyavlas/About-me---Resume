@@ -1,8 +1,8 @@
-html{
+html {
     font-family: 'Roboto', sans-serif;
 }
 
-.page{
+.page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -11,7 +11,7 @@ html{
 
 /*Header*/
 
-.header-class{
+.header-class {
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -26,12 +26,13 @@ html{
     padding: 0 16px;
 }
 
-.icon{
+.icon {
     height: 100px;
     width: auto;
 
 }
-.menu-class{
+
+.menu-class {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,20 +43,18 @@ html{
     max-width: 700px;
     min-height: 100px;
     background: #213B7E;
-  
+
 }
 
 
 
-ul>li{
+ul>li {
     display: flex;
-    /*flex-grow: 1;*/
 }
 
-.menu-link{
+.menu-link {
     display: flex;
     flex-wrap: wrap;
-    /*flex-grow: 1;*/
     align-items: center;
     justify-content: center;
     padding: 0 18px;
@@ -71,18 +70,18 @@ ul>li{
     white-space: pre-wrap;
 }
 
-.menu-link:hover{
+.menu-link:hover {
     background: #FFFFFF;
     color: #213B7E;
-    text-decoration-line:none;
+    text-decoration-line: none;
 }
 
-.me-button{
+.me-button {
     max-width: 153px;
     width: 100%;
     min-height: 70px;
     background: #EA5D21;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -91,19 +90,20 @@ ul>li{
     justify-content: center;
     border: 0;
     margin: 0;
+    padding: 0;
     color: #FFFFFF;
-    
+
 }
 
-.basic-content{
+.basic-content {
+    flex-grow: 1;
     max-width: 911px;
     width: 100%;
     min-height: 720px;
     margin: 0 auto;
 }
 
-.basic-heading{
-    font-family: 'Roboto';
+.basic-heading {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -115,30 +115,46 @@ ul>li{
     height: auto;
 }
 
-h2{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-color: #000000;
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
 }
 
-.text{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-color: #000000;
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
 
 }
 
-em{    
-color: #CF5510;
+em {
+    color: #CF5510;
 }
 
-.lower-section{
+.lower-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 16px;
     max-width: 1300px;
     width: 100%;
-min-height: 60px;
-background: #213B7E;
+    min-height: 60px;
+    background: #213B7E;
+}
+
+.lower-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.author-link {
+    color: rgba(255, 255, 255, 0.5);
 }
