@@ -65,7 +65,6 @@ ul>li {
     text-decoration-line: underline;
     text-align: center;
     color: #FFFFFF;
-    white-space: pre-wrap;
 }
 
 .menu-link:hover {
@@ -163,11 +162,35 @@ em {
 
 @media (max-width: 1300px) {
     .header-class {
-        width: 70%;
+        width: 80%;
     }
 
     .menu-class {
+        width: 60%;
+        /*min-height: 60px; */
+    }
+
+    .lower-section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1225px) {
+    .menu-class {
+        width: 45%;
+        /*min-height: 80px; */
+    }
+
+    .basic-content {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width: 410px) {
+    .lower-text {
         width: 50%;
-        min-height: 50px;
+        text-align: center;
     }
 }
